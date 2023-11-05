@@ -1,0 +1,37 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://wallpapers.com/images/hd/light-color-background-u5ajon1xr9puabyq.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3em;
+    color: #333;
+}
+
+#hr,#mn,#sec {
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    background-color: #ddd;
+    border-radius: 0.3em;
+}
+span{
+    font-weight: bold;
+}
+
+.labels {
+    display: flex;
+}
+
+.labels > div {
+    margin: 0 38px; 
+}
